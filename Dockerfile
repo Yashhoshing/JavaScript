@@ -5,4 +5,4 @@ COPY.
 RUN python manage.py migrate
 EXPOSE 8000
 
-CMD ["js", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["js", "challanges.js", "runserver", "0.0.0.0:8000"]
